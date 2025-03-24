@@ -1,1 +1,3 @@
 
+const filterCate=new Set(data.map((item)=>item.category));
+  const selectedCat=["all",...filterCate];
